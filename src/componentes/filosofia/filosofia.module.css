@@ -1,0 +1,73 @@
+.filosofia{
+    width: auto;
+    background-color: white;
+}
+
+.title{
+    color: #00529B;
+    font-family: 'Inter';
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.section{
+    width: auto;
+    height: 895px;
+    background-color: #F6F6F6;
+    display: flex;
+}
+
+.vector{
+    margin-top: 111px;
+    margin-left: 194px;
+}
+
+.list{
+    width: 919px;
+    height: 643px;
+    margin-top: 90px;
+    margin-left: 120px;
+}
+
+.list > li{
+    padding-bottom: 65px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 33px;
+    color: black;
+}
+
+@media screen and (min-width:600px){
+    .vector{
+        width: 690.84px;
+        height: 551px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .section{
+        width: auto;
+        height: 1100px;
+        background-color: #F6F6F6;
+        display: flex;
+    }
+
+    .list{
+        position: relative;
+        width: 690px;
+        height: 643px;
+        margin-top: 600px;
+        margin-left: -650px;
+    }
+
+    .list > li{
+        padding-bottom: 65px;
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 23px;
+        color: black;
+    }
+    
+    
+}
