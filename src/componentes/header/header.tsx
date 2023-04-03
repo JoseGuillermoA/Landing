@@ -1,6 +1,28 @@
 import Image from 'next/image'
 import styles from '@/componentes/header/header.module.css'
 
+const menuItems = [
+    {
+        name: "Inicio",
+        ancla: "#home"
+    },
+    {
+        name: "Nosotros",
+        ancla: "#info"
+    },
+    {
+        name: "Contacto",
+        ancla: "#contact"
+    },
+    {
+        name: "Servicios",
+        ancla: "#services"
+    },
+    {
+        name: "test",
+        ancla: "#test"
+    },
+]
 
 function Header() {
     return (
@@ -13,12 +35,7 @@ function Header() {
                 </div>
 
                 <div className={styles.topNav} id="myNav">
-
-                    <a href="#" className={styles.menu}>Inicio</a>
-                    <a href="#" className={styles.menu}>Nosotros</a>
-                    <a href="#" className={styles.menu}>Contacto</a>
-                    <a href="#" className={styles.menu}>Servicios</a>
-
+                {menuItems.map(item =>  (<a href={item.ancla} className={styles.menu}>{item.name}</a>))}
                 </div> 
 
             </section>
