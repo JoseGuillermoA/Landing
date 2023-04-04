@@ -2,6 +2,7 @@
     width: auto;
     height: 1080px;
     background-image: url("../../../public/backgorund.png");
+    background-position: center;
     background-size: cover;
 }
 
@@ -14,7 +15,7 @@
 
 .topSts{
     padding-left: 30px;
-    margin-right: 1313px;
+    margin-right: 913px;
 }
 
 .sts{
@@ -36,8 +37,8 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 80px;
-    left: 550px;
-    top: 320px;
+    left: 400px;
+    top: 300px;
 }
 
 .description{
@@ -46,8 +47,8 @@
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
     text-align: center;
-    left: 400px;
-    top: 340px;
+    left: 250px;
+    top: 300px;
 }
 
 .contact{
@@ -56,8 +57,8 @@
     height: 80px;
     background-color: white;
     border-radius: 50px;
-    top: 420px;
-    left: 900px;
+    top: 350px;
+    left: 740px;
 }
 
 .contact > a{
@@ -72,7 +73,77 @@
     padding-left: 27px;
 }
 
-@media screen and (min-width:600px){
+@media (max-width:700px){
+    .Header{
+        width: auto;
+        height: 800px;
+        background-image: url("../../../public/backgorund.png");
+        background-size: cover;
+    }
+
+    .topSts{
+        padding-left: 30px;
+        margin-right: 260px;
+    }
+
+    .sts{
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+    
+    .menu{
+        font-size: 15px;
+        font-family: 'Inter', sans-serif;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .title{
+        position: relative;
+        width: auto;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+        left: 120px;
+        top: 120px;
+    }
+
+    .description{
+        position: relative;
+        width: auto;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        left: 2px;
+        top: 140px;
+    }
+
+    .contact{
+        position: relative;
+        width: 250px;
+        height: 80px;
+        background-color: white;
+        border-radius: 50px;
+        top: 190px;
+        left: 230px;
+    }
+    
+    .contact > a{
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 80px;
+        padding-top: 17px;
+        padding-bottom: 18px;
+        padding-right: 25px;
+        padding-left: 27px;
+    }
+
+}
+
+@media (max-width:600px){
 
     .Header{
         width: auto;
@@ -142,71 +213,3 @@
     }
 }
 
-@media screen and (min-width:700px){
-    .Header{
-        width: auto;
-        height: 800px;
-        background-image: url("../../../public/backgorund.png");
-        background-size: cover;
-    }
-
-    .topSts{
-        padding-left: 30px;
-        margin-right: 260px;
-    }
-
-    .sts{
-        font-size: 20px;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-    }
-    
-    .menu{
-        font-size: 15px;
-        font-family: 'Inter', sans-serif;
-        padding-right: 20px;
-        padding-left: 20px;
-    }
-
-    .title{
-        position: relative;
-        width: auto;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        font-size: 40px;
-        left: 120px;
-        top: 120px;
-    }
-
-    .description{
-        position: relative;
-        width: auto;
-        font-family: 'Poppins', sans-serif;
-        font-size: 20px;
-        text-align: center;
-        left: 2px;
-        top: 140px;
-    }
-
-    .contact{
-        position: relative;
-        width: 250px;
-        height: 80px;
-        background-color: white;
-        border-radius: 50px;
-        top: 190px;
-        left: 230px;
-    }
-    
-    .contact > a{
-        color: black;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 900;
-        font-size: 30px;
-        line-height: 80px;
-        padding-top: 17px;
-        padding-bottom: 18px;
-        padding-right: 25px;
-        padding-left: 27px;
-    }
-}

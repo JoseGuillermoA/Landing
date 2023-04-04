@@ -17,11 +17,7 @@ const menuItems = [
     {
         name: "Servicios",
         ancla: "#services"
-    },
-    {
-        name: "test",
-        ancla: "#test"
-    },
+    }
 ]
 
 function Header() {
@@ -34,7 +30,7 @@ function Header() {
                     <a href="#" className={styles.sts}>STS</a>
                 </div>
 
-                <div className={styles.topNav} id="myNav">
+                <div className={styles.topNav}>
                 {menuItems.map(item =>  (<a href={item.ancla} className={styles.menu}>{item.name}</a>))}
                 </div> 
 

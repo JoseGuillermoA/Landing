@@ -7,7 +7,7 @@
     color: #00529B;
     font-family: 'Inter';
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 800;
     text-align: center;
 }
 
@@ -20,7 +20,7 @@
 
 .vector{
     margin-top: 111px;
-    margin-left: 194px;
+    margin-left: 124px;
 }
 
 .list{
@@ -38,12 +38,44 @@
     color: black;
 }
 
-@media screen and (min-width:600px){
+@media (max-width:700px){
     .vector{
-        width: 690.84px;
-        height: 551px;
-        margin-top: 10px;
-        margin-left: 10px;
+        width: 630.84px;
+        height: 491px;
+        margin-top: 20px;
+        margin-left: 55px;
+    }
+
+    .section{
+        height: 1100px;
+    }
+
+
+    .list{
+        position: relative;
+        width: 690px;
+        height: 643px;
+        margin-top: 600px;
+        margin-left: -650px;
+    }
+
+    .list > li{
+        padding-bottom: 65px;
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 23px;
+        color: black;
+    }
+}
+
+
+
+@media (max-width:600px){
+    .vector{
+        width: 540.84px;
+        height: 401px;
+        margin-top: 20px;
+        margin-left: 35px;
     }
 
     .section{
@@ -55,10 +87,10 @@
 
     .list{
         position: relative;
-        width: 690px;
+        width: 540px;
         height: 643px;
-        margin-top: 600px;
-        margin-left: -650px;
+        margin-top: 500px;
+        left: 130px;
     }
 
     .list > li{
