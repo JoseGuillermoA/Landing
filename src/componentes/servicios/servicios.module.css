@@ -10,7 +10,7 @@
   
   /* Estilos para el título */
   .title {
-    
+    font-size: 50px;
     font-family: 'Inter';
     color: #00529B;
   }
@@ -35,12 +35,13 @@
   }
   
   .card {
-    border-radius: 50px;
+    border-radius: 30px;
     border: 1px solid #989898;
     width: 400px;
     height: 400px;
     margin: 10px;
     padding: 23px;
+    box-shadow: 8px 5px 5px gray;
   }
   
   .card h2 {

@@ -3,7 +3,7 @@ import styles from '@/componentes/servicios/servicios.module.css'
 function Servicios() {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Servicios</h1>
+      <h1 className={styles.title}>Servicios</h1>  
       <div className={styles.cards}>
         <div className={styles.card}>
           <img src="/Icono1.svg" alt="icono1" />
